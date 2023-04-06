@@ -1,8 +1,9 @@
 package cscd212classes.lab2;
 
+import java.util.Comparator;
 import java.util.Objects;
 
-public class Television {
+public class Television implements Comparable<Television> {
 
     //data members
     private final boolean fourK;
@@ -16,7 +17,7 @@ public class Television {
     public Television(String make, String model, boolean smart, int screenSize, int resolution) {
         // Check for valid arguments
         if (make == null || make.isEmpty() || model == null || model.isEmpty() || screenSize < 32 || resolution < 720) {
-            throw new IllegalArgumentException("Invalid arguments for Television constructor");
+            throw new IllegalArgumentException("Invalid parameter in constructor");
         }
 
         // Initialize data members
@@ -54,7 +55,7 @@ public class Television {
         if (smart && resolution == 2160) {
             result += "smart tv with 4K resolution";
         } else if (smart) {
-            result += resolution + "resolution";
+            result += resolution + " resolution";
         }
         return result;
     }
@@ -72,10 +73,11 @@ public class Television {
         return Objects.hash(fourK, make, model, resolution, screenSize, smart);
     }
 
+
     @Override
     public int compareTo(Television another) {
         if (another == null) {
-            throw new IllegalArgumentException("Television object cannot be null");
+            throw new IllegalArgumentException("null parameter in the compareTo method");
         }
 
         int makeComparison = this.make.compareTo(another.getMake());
@@ -90,6 +92,4 @@ public class Television {
 
         return this.screenSize - another.getScreenSize();
     }
-
-
 }
