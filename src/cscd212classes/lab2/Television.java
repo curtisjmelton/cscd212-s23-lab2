@@ -51,14 +51,21 @@ public class Television implements Comparable<Television> {
     }
 
     public String toString() {
-        String result = make + "-" + model + ", " + screenSize + " inch tv with ";
-        if (smart && resolution == 2160) {
+        String result = make + "-" + model + ", " + screenSize + " inch ";
+
+        if (smart && fourK) {
             result += "smart tv with 4K resolution";
         } else if (smart) {
-            result += resolution + " resolution";
+            result += "smart tv with " + resolution + " resolution";
+        } else if (fourK) {
+            result += "tv with 4K resolution";
+        } else {
+            result += "tv with " + resolution + " resolution";
         }
+
         return result;
     }
+
 
     @Override
     public boolean equals(Object o) {
@@ -68,10 +75,13 @@ public class Television implements Comparable<Television> {
         return fourK == that.fourK && resolution == that.resolution && screenSize == that.screenSize && smart == that.smart && Objects.equals(make, that.make) && Objects.equals(model, that.model);
     }
 
-    @Override
     public int hashCode() {
-        return Objects.hash(fourK, make, model, resolution, screenSize, smart);
+        Boolean smartObject = Boolean.valueOf(smart);
+        Boolean fourKObject = Boolean.valueOf(fourK);
+
+        return  (int) make.hashCode() + model.hashCode() + getResolution() + smartObject.hashCode() + fourKObject.hashCode();
     }
+
 
 
     @Override

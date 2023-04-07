@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="da5ba385-f002-4585-af0f-c05a3104d548" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cscd212-s23-lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cscd212-s23-lab2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cscd212classes/lab2/Television.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,8 +59,8 @@
       <recent name="cscd212classes.lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TATelevisionModelScreenSizeComparatorTest$NullChecks.t1Null">
-    <configuration name="TATelevisionModelScreenSizeComparatorTest$NullChecks.t1Null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TATelevisionTest$BasicOtherQuickTests.testHashCode">
+    <configuration name="TATelevisionTest$BasicOtherQuickTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cscd212-s23-lab2" />
       <extension name="coverage">
         <pattern>
@@ -69,30 +68,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionModelScreenSizeComparatorTest" />
-      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionModelScreenSizeComparatorTest$NullChecks" />
-      <option name="METHOD_NAME" value="t1Null" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TATelevisionScreenSizeComparatorTest$Compare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cscd212-s23-lab2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cscd212tests.lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionScreenSizeComparatorTest" />
-      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionScreenSizeComparatorTest$Compare" />
+      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionTest" />
+      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionTest$BasicOtherQuickTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TATelevisionScreenSizeComparatorTest$NullChecks.bothNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TATelevisionTest$BasicOtherQuickTests.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cscd212-s23-lab2" />
       <extension name="coverage">
         <pattern>
@@ -100,15 +83,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionScreenSizeComparatorTest" />
-      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionScreenSizeComparatorTest$NullChecks" />
-      <option name="METHOD_NAME" value="bothNull" />
+      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionTest" />
+      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionTest$BasicOtherQuickTests" />
+      <option name="METHOD_NAME" value="testHashCode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TATelevisionScreenSizeComparatorTest$NullChecks.t1Null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TATelevisionTest$BasicOtherQuickTests.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cscd212-s23-lab2" />
       <extension name="coverage">
         <pattern>
@@ -116,15 +99,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionScreenSizeComparatorTest" />
-      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionScreenSizeComparatorTest$NullChecks" />
-      <option name="METHOD_NAME" value="t1Null" />
+      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionTest" />
+      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionTest$BasicOtherQuickTests" />
+      <option name="METHOD_NAME" value="testToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TATelevisionScreenSizeComparatorTest$NullChecks.t2Null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TATelevisionTest$BasicQuickTests.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cscd212-s23-lab2" />
       <extension name="coverage">
         <pattern>
@@ -132,21 +115,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionScreenSizeComparatorTest" />
-      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionScreenSizeComparatorTest$NullChecks" />
-      <option name="METHOD_NAME" value="t2Null" />
+      <option name="PACKAGE_NAME" value="cscd212tests.lab2.TATelevisionTest" />
+      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionTest$BasicQuickTests" />
+      <option name="METHOD_NAME" value="testHashCode" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TATelevisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cscd212-s23-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cscd212tests.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cscd212tests.lab2" />
+      <option name="MAIN_CLASS_NAME" value="cscd212tests.lab2.TATelevisionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TATelevisionModelScreenSizeComparatorTest$NullChecks.t1Null" />
-        <item itemvalue="JUnit.TATelevisionScreenSizeComparatorTest$Compare" />
-        <item itemvalue="JUnit.TATelevisionScreenSizeComparatorTest$NullChecks.bothNull" />
-        <item itemvalue="JUnit.TATelevisionScreenSizeComparatorTest$NullChecks.t1Null" />
-        <item itemvalue="JUnit.TATelevisionScreenSizeComparatorTest$NullChecks.t2Null" />
+        <item itemvalue="JUnit.TATelevisionTest$BasicOtherQuickTests.testHashCode" />
+        <item itemvalue="JUnit.TATelevisionTest$BasicQuickTests.testHashCode" />
+        <item itemvalue="JUnit.TATelevisionTest$BasicOtherQuickTests" />
+        <item itemvalue="JUnit.TATelevisionTest" />
+        <item itemvalue="JUnit.TATelevisionTest$BasicOtherQuickTests.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -158,11 +156,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680711634987</updated>
-      <workItem from="1680711636319" duration="14448000" />
+      <workItem from="1680711636319" duration="24052000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
